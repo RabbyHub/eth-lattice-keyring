@@ -660,7 +660,7 @@ class LatticeKeyring extends EventEmitter {
         return {
           address,
           balance: null,
-          index: start + i,
+          index: start + i + 1,
         };
       });
       return accounts;
