@@ -759,10 +759,10 @@ exit-on-epipe@~1.0.1:
   resolved "https://registry.yarnpkg.com/exit-on-epipe/-/exit-on-epipe-1.0.1.tgz#0bdd92e87d5285d267daa8171d0eb06159689692"
   integrity sha512-h2z5mrROTxce56S+pnvAV890uu7ls7f1kEvVGJbw1OlFH3/mlJ5bkXu0KRyW94v37zzHPiUd55iLn3DA7TjWpw==
 
-gridplus-sdk@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/gridplus-sdk/-/gridplus-sdk-3.1.1.tgz#6e95c74bae76755ebf2f8f13cf064f664562fdd6"
-  integrity sha512-S3QG58AtXRrdh/bGTK505rD78PaEmuAoVo/G9P3heupa6w9Orpivbe8KhY9p3a+4VJEn4uBIlSKrG7853qOxOA==
+gridplus-sdk@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/gridplus-sdk/-/gridplus-sdk-3.2.0.tgz#e7ec7373e4e52368e32894e1d3391cf12972f014"
+  integrity sha512-hPXThWu3J5rwoq64Ud6lnHm3ygUbQDkUdiVS6ebpdk1WVnxE1b7+jP3LLJJIXIjIEezKdffLmBA4Pj9E7ujZGQ==
   dependencies:
     "@ethereumjs/common" "^4.4.0"
     "@ethereumjs/rlp" "^5.0.2"
