@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/eth-lattice-keyring",
-  "version": "1.2.2",
+  "version": "1.2.3-alpha-1",
   "description": "Keyring for connecting to the Lattice1 hardware wallet",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,11 @@
   "bugs": {
     "url": "https://github.com/GridPlus/eth-lattice-keyring/issues"
   },
+  "packageManager": "yarn@1.22.22",
   "homepage": "https://github.com/GridPlus/eth-lattice-keyring#readme",
   "dependencies": {
-    "@ethereumjs/common": "2.4.0",
-    "@ethereumjs/tx": "3.3.2",
+    "@ethereumjs/tx": "4.1.1",
+    "@ethereumjs/util": "8.0.5",
     "bn.js": "^5.2.0",
     "ethereumjs-util": "^7.0.10",
     "gridplus-sdk": "3.2.0",
