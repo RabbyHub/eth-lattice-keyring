@@ -3,8 +3,7 @@ const EventEmitter = require("events").EventEmitter;
 const BN = require("bn.js");
 const SDK = require("gridplus-sdk");
 const EthTx = require("@ethereumjs/tx");
-const { bytesToHex } = require("@ethereumjs/util");
-const { addHexPrefix } = require("ethereumjs-util");
+const { bufferToHex, addHexPrefix } = require("@ethereumjs/util");
 const rlp = require("rlp");
 const keyringType = "Lattice Hardware";
 const HARDENED_OFFSET = 0x80000000;
@@ -748,7 +747,7 @@ function getLegacyTxReq(tx) {
       gasLimit: `0x${tx.gasLimit.toString(16)}`,
       to: !!tx.to ? tx.to.toString() : null, // null for contract deployments
       value: `0x${tx.value.toString(16)}`,
-      data: tx.data.length === 0 ? null : bytesToHex(tx.data),
+      data: tx.data.length === 0 ? null : bufferToHex(tx.data),
     };
     switch (tx._type) {
       case 2: // eip1559
